@@ -1,0 +1,332 @@
+body,
+html {
+background-color: #f8f8ff;
+padding: 0;
+margin: 0;
+width: 100%;
+}
+
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+header {
+  font-size: 3.9rem;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100vh;
+  background: url(Images/Image001.JPG);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  color: yellow;
+}
+
+header p {
+  transition: ease-in 200ms;
+  text-align: center;
+  padding-left: 565px;
+}
+
+header span {
+  color: white;
+  transition: ease-in 300ms;
+}
+
+header:hover {
+  opacity: 0.9;
+  transition: ease-in-out 550ms;
+  color: black;
+}
+
+header:hover span {
+  color: blue;
+}
+
+/***Menu bar***/
+.menubar ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: black;
+}
+
+.menubar li {
+  float: left;
+}
+
+.menubar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menubar li a:hover {
+  color: black;
+}
+
+.menubar ul:hover {
+  background-color: grey;
+  transition: ease-in-out 550ms;
+}
+
+/***End of menu bar**/
+
+/***Who section**/
+.WhoAreThey {
+  background-color: black;
+  color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-color: green solid 0.9em;
+  font-size: 30px;
+}
+
+.WhoAreThey h1 {
+  text-align: center;
+  font-size: 50px;
+  transition: ease-in-out 550ms;
+  color: white;
+}
+
+.WhoAreThey p {
+  font-size: 20px;
+  color: white;
+  padding-top: 10px;
+  height: 50px;
+}
+
+.WhoAreThey:hover {
+  background-color: #8f8fff;
+  color: black;
+  transition: ease-in-out 550ms;
+}
+
+.WhoAreThey h1:hover {
+  color: black;
+  transition: ease-in-out 550ms;
+}
+
+@media (min-width: 1200px) {
+  .WhoAreThey p {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .WhoAreThey h1 {
+    font-size: 60px;
+  }
+}
+
+/**ENd of who section**/
+
+/**Album section**/
+.Albums {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/*button container*/
+.btn-container {
+  margin: 0;
+  text-align: center;
+}
+
+/*button*/
+.btn {
+border: 1px solid #3498db;
+background: none;
+padding: 10px 10px;
+font-size: 20px;
+cursor: pointer;
+margin: 10px;
+border: 1px solid #339033;
+text-decoration: none;
+}
+
+.btn-container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: black;
+  transition: ease-in-out 800ms;
+}
+
+@media (min-width: 300px) {
+  .btn p {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 30px;
+  }
+}
+
+
+/***Images***/
+.img {
+  text-align: center;
+}
+
+.image-02 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+/***End of images***/
+
+/***Text***/
+.text-left {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: black;
+  color: white;
+}
+
+.text-left p {
+  font-size: 21px;
+  font-family: 'Lato', sans-serif;
+  padding-left: 15px;
+}
+
+.text-left:hover {
+  background-color: #f8f8ff;
+  color: black;
+  transition: ease-in-out 550ms;
+}
+
+.text-right {
+  padding-bottom: 15px;
+  padding-top: 15px;
+  background-color: black;
+  color: white;
+}
+
+.text-right p {
+  font-size: 21px;
+  font-family: 'Lato', sans-serif;
+  padding-left: 15px;
+}
+
+.text-right:hover {
+  background-color: #f8f8ff;
+  color: black;
+  transition: ease-in-out 550ms;
+}
+/***End of text***/
+
+/***End of menu bar**/
+
+/**Footer**/
+footer {
+  width: 100%;
+  background-color: black;
+  padding: 30px 0px;
+  position: absolute;
+  text-align: center;
+}
+
+.Footer-text:hover {
+  background-color: #f8f8ff;
+  color: black;
+  transition: ease-in-out 800ms;
+}
+
+.footer-buttons {
+  font-size: 35px;
+  padding-bottom: 15px;
+}
+
+.fa {
+  text-decoration: none;
+  color: white;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  transform: scale(1.3);
+}
+/***End of footer***/
+
+/**album section**/
+.Centered-text {
+  margin: 70px;
+  width: 90%;
+  color: black;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+  font-size: 16px;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: right;
+  width: 30%;
+
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: #f8f8ff;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.image {
+  transition: transform .2s; /* Animation */
+}
+
+.image:hover
+   {
+  transform: scale(1.5);
+  transition: ease-in-out 550ms;
+}
+
+.Click {
+  text-align: center;
+  padding-bottom: 35px;
+  padding-top: 35px;
+  font-size: 30px;
+}
